@@ -1,0 +1,66 @@
+html
+  head
+    title= title
+    link(rel='stylesheet', href='/stylesheets/style.css')
+    script(src="/login.js")
+    script(src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js")
+    script(src="https://cdnjs.cloudflare.com/ajax/libs/socket.io/1.7.3/socket.io.min.js")
+    link(rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous")
+
+  body
+
+  block content 
+    h4 Email Usuario: 
+    div(style="width:40%;")
+      input#nombre(type="email" class="form-control")
+      br
+      button#oscar(type="submit" value="entrar" class="btn btn-secondary") Entrar
+    br
+     
+    div(style="width:40%;")
+      h4 Nombre usuario a registrar:
+      input#nombreR(type="text" class="form-control")
+      br
+      h4 Email usuario a registrar:
+      input#email(type="email" class="form-control")
+      br
+      button#submitR(type="submit" value="registrar" class="btn btn-secondary") Registrar
+    br
+
+    h1(style="text-align: center;") RANKING
+    br
+    div
+    div(style="text-align: center;")
+      label#1
+      label(class="uno") :&nbsp;
+      label#2
+      label(class="uno") &nbsp;-&nbsp;TIEMPO:&nbsp;
+      label#3
+      br
+      br
+      label#4
+      label(class="dos") :&nbsp;
+      label#5
+      label(class="dos") &nbsp;-&nbsp;TIEMPO:&nbsp;
+      label#6
+      br
+      br
+      label#7
+      label(class="tres") :&nbsp;
+      label#8
+      label(class="tres") &nbsp;-&nbsp;TIEMPO:&nbsp;
+      label#9
+      br
+      br
+      label#10
+      label(class="cuatro") :&nbsp;
+      label#11
+      label(class="cuatro") &nbsp;-&nbsp;TIEMPO:&nbsp;
+      label#12
+      br
+      br
+      label#13
+      label(class="cinco") :&nbsp;
+      label#14
+      label(class="cinco") &nbsp;-&nbsp;TIEMPO:&nbsp;
+      label#15

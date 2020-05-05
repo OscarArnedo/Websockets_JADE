@@ -1,0 +1,66 @@
+doctype html
+html
+  head
+    title= title
+    link(rel='stylesheet', href='/stylesheets/style.css')
+    script(src="/juego.js")
+    script(src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js")
+    script(src="https://cdnjs.cloudflare.com/ajax/libs/socket.io/1.7.3/socket.io.min.js")
+
+  body
+
+div
+h4 Jugador 1:
+label#puntuacionJ1
+h4 Jugador 2:
+label#puntuacionJ2  
+h2#contador(style="text-align:right;")
+table
+      thead
+        tr
+            td#a1
+            td#a2
+            td#a3 
+            td#a4 
+            td#a5 
+            td#a6 
+        tr
+            td#b1 
+            td#b2
+            td#b3
+            td#b4
+            td#b5
+            td#b6
+        tr
+            td#c1
+            td#c2 
+            td#c3
+            td#c4 
+            td#c5
+            td#c6
+        tr
+            td#d1
+            td#d2
+            td#d3 
+            td#d4 
+            td#d5 
+            td#d6 
+        tr
+            td#e1 
+            td#e2 
+            td#e3
+            td#e4 
+            td#e5
+            td#e6
+        tr
+              td#f1 
+              td#f2 
+              td#f3 
+              td#f4 
+              td#f5 
+              td#f6
+
+
+br
+br
+button#logout(style="font-weight: bold;") Finalizar Partida
